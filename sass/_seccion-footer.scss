@@ -1,0 +1,24 @@
+
+
+.flex-container-3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    padding-top: 250px; 
+    animation: animacion-desafio-sass 20s linear 0s infinite;
+    .flex-item-3 {
+        width: 30%;
+        height: 150px;
+        background: radial-gradient(black, grey);
+        color: white;
+        margin-left: 180px;
+        margin-bottom: 100px; 
+        padding-left: 200px;
+        a {
+            color: white;
+        } 
+    } 
+
+    
+} 

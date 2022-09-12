@@ -1,0 +1,109 @@
+
+
+
+@media (max-width:768px) {
+    .flex-container-1 {
+        background-color: green;
+        width: 700px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px; 
+        animation: animacion-desafio-sass 20s linear 0s infinite;
+        .flex-item-1 {
+            width: 20%;
+            height: 150px;
+            margin-left: 5px;
+            padding-left: 1px;
+            padding-top: 2px;
+            a {
+                color: white;
+            } 
+        } 
+    } 
+
+    
+
+    
+    .section {
+        background: radial-gradient(black, grey);
+        width: 700px;
+        height: 400px;
+        gap: 0px;
+        margin-top: -30px;
+    
+    } 
+
+
+    .flex-container-2 {
+
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column; /* responsive column */ 
+        animation: animacion-desafio-sass 20s linear 0s infinite;
+    } 
+
+    
+    
+
+/* footer */
+
+.flex-container-3 {
+    width: 700px;
+    height: 500px;
+    display: flex; 
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 1250px; 
+    animation: animacion-desafio-sass 20s linear 0s infinite;
+    .flex-item-3 {
+        width: 40%;
+        height: 250px;
+        background: radial-gradient(black, grey);
+        color: white;
+        margin-left: 30px;
+        margin-bottom: 150px; 
+        padding-left: 10px; 
+        padding-bottom: 20px;
+        a {
+            color: white;
+        } 
+    } 
+
+} 
+
+
+
+
+
+@keyframes animacion-desafio-sass {
+    0%{
+        background-color: black;
+    } 
+
+    15% {
+        background-color: rgb(0, 61, 9);
+    }
+
+    30% {
+        background-color: rgb(0, 105, 16);
+    }
+
+    50% {
+        background-color: rgb(0, 189, 28);
+    }
+
+    70% {
+        background-color: rgb(0, 189, 28);
+    }
+
+    85% {
+        background-color: rgb(0, 105, 16);
+    }
+
+    100% {
+        background-color: rgb(0, 61, 9);
+    }
+} 
+
+}
